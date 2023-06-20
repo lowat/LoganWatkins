@@ -1,0 +1,107 @@
+:root{
+    --home-color-offwhite: #faefe4;
+    --home-color-green: #019267;
+}
+
+.workHistory-header-div {
+    background-color: var(--home-color-offwhite);
+    margin-top: 0;
+    height: 100vh;
+}
+
+.workHistory-intro-header {
+    color: var(--home-color-green);
+    font-family: Garamond;
+    font-size: 8rem;
+    padding-bottom:  2%;
+}
+
+.workHistory-sections-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.workHistory-section {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 20vw;
+}
+.workHistory-text {
+    font-size: 1.5rem;
+}
+
+.workHistory-project-list {
+    font-size: .9rem;
+    text-align: center;
+    list-style: square;
+    list-style-position: inside;
+}
+
+.workHistory-project-list-item {
+    font-size: .9rem;
+    list-style: square;
+}
+
+.workHistory-project-title {
+    font-family: Garamond;
+    font-weight: bolder;
+    color: var(--home-color-green);
+}
+
+.workHistory-project-role {
+    font-family: Garamond;
+    font-weight: bolder;
+    color: black;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.workHistory-project-tech {
+    font-family: Garamond;
+    font-weight: bolder;
+    color: black;
+    font-size: 1.1rem;
+}
+
+
+@media screen and (max-width: 1600px){
+    :root{
+        --home-color-offwhite: #faefe4;
+        --home-color-green: #019267;
+    }
+
+    .workHistory-header-div {
+        background-color: var(--home-color-offwhite);
+        margin-top: 0;
+        height: fit-content;
+    }
+
+    .workHistory-intro-header {
+        color: var(--home-color-green);
+        font-family: Garamond;
+        font-size: 6rem;
+        padding-bottom:  2%;
+    
+    }
+    .workHistory-section {
+        align-content: center;
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 100%;
+    }
+    
+    .workHistory-project-list {
+        text-align: center;
+    }
+
+    .workHistory-project-list-item {
+        font-size: .9rem;
+        list-style: square;
+
+    }
+}

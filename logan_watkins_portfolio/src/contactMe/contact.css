@@ -1,0 +1,147 @@
+:root{
+    --home-color-offwhite: #faefe4;
+    --home-color-green: #019267;
+}
+
+.contact-header-div {
+    background-color: var(--home-color-offwhite);
+    margin-top: 0;
+    height: 100vh;
+}
+
+.contact-intro-header {
+    color: var(--home-color-green);
+    font-family: Garamond;
+    font-size: 8rem;
+    padding-bottom:  2%;
+
+}
+
+.contact-sections-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2%;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.contact-section {
+    align-content: center;
+    width: 30vw;
+    padding-left: 2%;
+        padding-right: 2%;
+        color: var(--home-color-green);
+
+}
+.contact-text {
+    font-size: 1.5rem;
+}
+
+.contact-contact-list {
+    font-size: .9rem;
+    text-align: center;
+    list-style: square;
+    list-style-position: inside;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.contact-contact-list-item {
+    font-size: .9rem;
+    list-style: square;
+}
+
+.contact-contact-title {
+    font-family: Garamond;
+    font-weight: bolder;
+    color: var(--home-color-green);
+}
+
+.contact-contact-role {
+    font-family: Garamond;
+    font-weight: bolder;
+    color: black;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.contact-contact-tech {
+    font-family: Garamond;
+    font-weight: bolder;
+    color: black;
+    font-size: 1.1rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--home-color-green);
+}
+h2 a:hover{
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: var(--home-color-green);
+}
+a:active{
+    text-decoration: none;
+} 
+
+ul {
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+h2 {
+    font-family: Garamond;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 1600px){
+    :root{
+        --home-color-offwhite: #faefe4;
+        --home-color-green: #019267;
+    }
+
+    .contact-header-div {
+        background-color: var(--home-color-offwhite);
+        margin-top: 0;
+        height: fit-content;
+    }
+
+    .contact-intro-header {
+        color: var(--home-color-green);
+        font-family: Garamond;
+        font-size: 6rem;
+        padding-bottom:  2%;
+    }
+
+    .contact-sections-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        padding-top: 2%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact-section {
+        align-content: center;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .contact-contact-list {
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact-contact-list-item {
+        font-size: .9rem;
+        list-style: square;
+
+    }
+}

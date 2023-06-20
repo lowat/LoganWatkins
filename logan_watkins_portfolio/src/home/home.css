@@ -1,0 +1,33 @@
+:root{
+    --home-color-offwhite: #faefe4;
+    --home-color-green: #019267;
+}
+
+@media (max-width: 1000px){
+    :root{
+        --home-color-offwhite: #faefe4;
+        --home-color-green: #019267;
+    }
+
+    .home-header-div {
+        background-color: var(--home-color-offwhite);
+        margin-top: 0;
+        height: fit-content;
+        width: 100vw;
+    }
+
+}
+.home-header-div {
+    background-color: var(--home-color-offwhite);
+    margin-top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-intro-header {
+    color: var(--home-color-green);
+    font-family: Garamond;
+    font-size: 8rem;
+}
